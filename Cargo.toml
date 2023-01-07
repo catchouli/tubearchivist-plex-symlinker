@@ -1,0 +1,16 @@
+[package]
+name = "tubearchivist-plex-symlinker"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+futures = "0.3.25"
+serde = "1.0.152"
+serde_json = "1.0.91"
+tokio = { version = "1.24.1", features = ["full"] }
+elasticsearch = "8.5.0-alpha.1"
+log = "0.4.17"
+env_logger = "0.10.0"
+glob = "0.3.1"
